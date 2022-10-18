@@ -1,4 +1,4 @@
-#!env sh
+#!/usr/bin/env bash
 set -e
 preCheck() {
   git version || {

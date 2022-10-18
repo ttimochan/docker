@@ -12,7 +12,7 @@ echo "Delete old files"
 [ -f "docker-compose.yml"] && rm -f docker-compose.yml
 [ -f "docker-compose.no-caddy.yml"] && rm -f docker-compose.no-caddy.yml
 
-echo "Download nessary scripts and config..."
+echo "Download necessary scripts and config..."
 wget https://fastly.jsdelivr.net/gh/mx-space/docker@master/.env.example
 wget https://fastly.jsdelivr.net/gh/mx-space/docker@master/Caddyfile.example
 wget https://fastly.jsdelivr.net/gh/mx-space/docker@master/docker-compose.yml

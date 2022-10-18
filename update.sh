@@ -1,4 +1,4 @@
-#!env sh
+#!/usr/bin/env sh
 cd kami
 git fetch --all --tags --prune
 latestTagHash=$(git rev-list --tags --max-count=1)

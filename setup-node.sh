@@ -1,4 +1,4 @@
-#!env bash
+#!/usr/bin/env bash
 function install_node() {
   curl -L https://raw.githubusercontent.com/tj/n/master/bin/n -o n
   # 如果无法访问 Github raw 的话就执行下面这条命令
